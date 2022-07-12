@@ -14,7 +14,7 @@ namespace Dio.Bank
             switch (opcaoUsuario)
             {
                 case "1":
-                    //ListarContas();
+                    ListarContas();
                     break;
                 case "2":
                     InserirConta();
@@ -23,7 +23,7 @@ namespace Dio.Bank
                    // Tranferir();
                     break;
                 case "4":
-                   // Sacar();
+                   Sacar();
                     break;
                 case "5":
                    // Depositar();
@@ -41,6 +41,16 @@ namespace Dio.Bank
         System.Console.WriteLine("Obrigado por utilizar nossos serviços.");
         Console.ReadLine();
     }
+
+        private static void Sacar()
+        {
+            Console.Write("Digite o numero da conta: ");
+            int indiceConta = int.Parse(Console.ReadLine());
+            Console.Write("Digite o valo a ser sacado: ");
+            double valorSaque = double.Parse(Console.ReadLine());
+
+            listContas[indiceConta].Sacar(valorSaque);
+        }
 
         private static void InserirConta()
         {
