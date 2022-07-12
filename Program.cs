@@ -5,6 +5,7 @@ namespace Dio.Bank
   
   class Program
   {
+    static List<Conta> listContas = new List<Conta>();
     static void Main(string[]args )
     {
         string opcaoUsuario = ObterOpcaoUsuario();
@@ -16,7 +17,7 @@ namespace Dio.Bank
                     //ListarContas();
                     break;
                 case "2":
-                   // InserirConta();
+                    InserirConta();
                     break;
                 case "3":
                    // Tranferir();
@@ -40,7 +41,29 @@ namespace Dio.Bank
         System.Console.WriteLine("Obrigado por utilizar nossos serviços.");
         Console.ReadLine();
     }
-    private static string ObterOpcaoUsuario()
+
+        private static void InserirConta()
+        {
+            Console.WriteLine("Inserir nova conta ");
+            Console.Write("Digite 1 para Conta Fisica ou 2 para Juridica: ");
+            int entradaTipoConta = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o nome do cliente: ");
+            string entradaNome = Console.ReadLine();
+            
+            Console.WriteLine("Digite o saldo inicial: ");
+            double entradaSaldo = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o Credito: ");
+            double entradaCredito = double.Parse(Console.ReadLine());
+
+            Conta novaConta = new Conta(tipoConta: (TipoConta)entradaTipoConta,
+                                                    saldo: entradaSaldo,
+                                                    credito: entradaCredito,
+                                                    nome: entradaNome);
+        }
+
+        private static string ObterOpcaoUsuario()
     {
         Console.WriteLine();
         Console.WriteLine("DIO Bank a seu dispor!!!");
