@@ -28,9 +28,16 @@ namespace Dio.Bank
             return true;
        }
        public void Depositar(double valorDeposito)
-       {
-        this.Saldo += valorDeposito;
-        System.Console.WriteLine("Saldo atual da conta de {0} é {1}", this.Nome, this.Saldo);
-       }
+        {
+            this.Saldo += valorDeposito;
+            System.Console.WriteLine("Saldo atual da conta de {0} é {1}", this.Nome, this.Saldo);
+        }
+        public void Tranferir (double valorTranferencia, Conta contaDestino)
+        {
+            if (this.Sacar(valorTranferencia))
+            {
+                contaDestino.Depositar(valorTranferencia);
+            }
+        }
     }
 }

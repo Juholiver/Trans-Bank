@@ -7,8 +7,8 @@ namespace Dio.Bank
   {
     static void Main(string[]args )
     {
-        Conta minhaConta = new Conta();
-        minhaConta.Nome = "José";
+        
+        
     }
   }
     
