@@ -1,0 +1,15 @@
+C:\Angular\DigitalOne\Tranferenciasbancarias\Dio.Bank\bin\Debug\net6.0\Dio.Bank.exe
+C:\Angular\DigitalOne\Tranferenciasbancarias\Dio.Bank\bin\Debug\net6.0\Dio.Bank.deps.json
+C:\Angular\DigitalOne\Tranferenciasbancarias\Dio.Bank\bin\Debug\net6.0\Dio.Bank.runtimeconfig.json
+C:\Angular\DigitalOne\Tranferenciasbancarias\Dio.Bank\bin\Debug\net6.0\Dio.Bank.dll
+C:\Angular\DigitalOne\Tranferenciasbancarias\Dio.Bank\bin\Debug\net6.0\Dio.Bank.pdb
+C:\Angular\DigitalOne\Tranferenciasbancarias\Dio.Bank\obj\Debug\net6.0\Dio.Bank.csproj.AssemblyReference.cache
+C:\Angular\DigitalOne\Tranferenciasbancarias\Dio.Bank\obj\Debug\net6.0\Dio.Bank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Angular\DigitalOne\Tranferenciasbancarias\Dio.Bank\obj\Debug\net6.0\Dio.Bank.AssemblyInfoInputs.cache
+C:\Angular\DigitalOne\Tranferenciasbancarias\Dio.Bank\obj\Debug\net6.0\Dio.Bank.AssemblyInfo.cs
+C:\Angular\DigitalOne\Tranferenciasbancarias\Dio.Bank\obj\Debug\net6.0\Dio.Bank.csproj.CoreCompileInputs.cache
+C:\Angular\DigitalOne\Tranferenciasbancarias\Dio.Bank\obj\Debug\net6.0\Dio.Bank.dll
+C:\Angular\DigitalOne\Tranferenciasbancarias\Dio.Bank\obj\Debug\net6.0\refint\Dio.Bank.dll
+C:\Angular\DigitalOne\Tranferenciasbancarias\Dio.Bank\obj\Debug\net6.0\Dio.Bank.pdb
+C:\Angular\DigitalOne\Tranferenciasbancarias\Dio.Bank\obj\Debug\net6.0\Dio.Bank.genruntimeconfig.cache
+C:\Angular\DigitalOne\Tranferenciasbancarias\Dio.Bank\obj\Debug\net6.0\ref\Dio.Bank.dll
