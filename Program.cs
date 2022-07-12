@@ -61,9 +61,29 @@ namespace Dio.Bank
                                                     saldo: entradaSaldo,
                                                     credito: entradaCredito,
                                                     nome: entradaNome);
+
+            listContas.Add(novaConta);
         }
 
-        private static string ObterOpcaoUsuario()
+        private static void ListarContas()
+        {
+            Console.WriteLine("Listar contas");
+            if(listContas.Count == 0)
+            {
+                Console.WriteLine("Nhuma Conta cadastrada. ");
+                return;
+            }
+
+            for (int i = 0; i < listContas.Count; i++)
+            {
+                Conta conta = listContas[i];
+                Console.Write("#{0} - ", i);
+                Console.WriteLine(conta);
+
+            }
+        }
+
+    private static string ObterOpcaoUsuario()
     {
         Console.WriteLine();
         Console.WriteLine("DIO Bank a seu dispor!!!");
